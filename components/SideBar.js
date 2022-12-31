@@ -70,9 +70,10 @@ const SideBar = () => {
               Add Project
             </MenuButton>
             <MenuList>
+              <Link href="/addProject">
               <MenuItem icon={<ImGithub style={{ width: 20, height: 20 }} />}>
                 Project
-              </MenuItem>
+              </MenuItem></Link>
               <MenuItem icon={<ImBlogger style={{ width: 20, height: 20 }} />}>
                 BLogger
               </MenuItem>
